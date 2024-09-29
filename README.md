@@ -6,4 +6,4 @@
 
 有误报的请及时反馈
 
-黑名单QQ:[qq.txt](./qq.txt)
+黑名单QQ：[qq.txt](./qq.txt)
