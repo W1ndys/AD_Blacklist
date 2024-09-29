@@ -1,4 +1,10 @@
 import sqlite3
+import os
+
+# 删除原来的数据库文件（如果存在）
+db_filename = "qq.db"
+if os.path.exists(db_filename):
+    os.remove(db_filename)
 
 # 读取文件内容
 with open("qq.txt", "r") as file:
@@ -8,7 +14,7 @@ with open("qq.txt", "r") as file:
 qq_numbers = [str(line.strip()) for line in lines]
 
 # 连接到SQLite数据库（如果数据库不存在，则会自动创建）
-conn = sqlite3.connect("qq.db")
+conn = sqlite3.connect(db_filename)
 cursor = conn.cursor()
 
 # 创建表（如果表不存在），并设置qq_number为唯一
