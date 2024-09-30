@@ -4,19 +4,17 @@
 
 **欢迎各位师傅 Pull Request**
 
-有误报的请及时反馈
+有误报的请及时反馈。
 
 ## 黑名单 QQ
 
-### [qq.txt](./qq.txt)
-
-### [qq.json](./qq.json)
-
-### [qq.db](./qq.db)
+- [qq.txt](./qq.txt)
+- [qq.json](./qq.json)
+- [qq.db](./qq.db)
 
 ## Pull Request 须知
 
-Pull Request 请将 QQ 号放在 `qq.txt` 文件中，并确保每行一个 QQ 号，格式如下：
+请将 QQ 号添加到 `qq.txt` 文件中，并确保每行一个 QQ 号，格式如下：
 
 ```
 2373913403
@@ -25,24 +23,20 @@ Pull Request 请将 QQ 号放在 `qq.txt` 文件中，并确保每行一个 QQ �
 2446498651
 ```
 
-并且要确保没有重复的 QQ 号
+推送后，GitHub Action 会自动整理删除重复 QQ，并生成对应的 db 和 json 文件。
 
-Pull Request 的时候请携带证明材料，比如违规截图，违规链接等
+Pull Request 时请附上证明材料，如违规截图、链接等。
 
 ## Python 脚本解释
 
-### [txt2json.py](./txt2json.py)
+- [txt2json.py](./txt2json.py): 将 `qq.txt` 文件转换为 `qq.json` 文件。
+- [txt2db.py](./txt2db.py): 将 `qq.txt` 文件转换为 `qq.db` 文件。
+  
+### 数据库说明
 
-将 `qq.txt` 文件转换为 `qq.json` 文件
-
-### [txt2db.py](./txt2db.py)
-
-将 `qq.txt` 文件转换为 `qq.db` 文件
-
-### [qq.db](./qq.db)
-
-一个 SQLite 数据库，里面包含了所有的 QQ 号
+- [qq.db](./qq.db): 一个 SQLite 数据库，包含所有的 QQ 号。
 
 ### 下载压缩包
 
-[https://github.com/W1ndys/AD_Blacklist/archive/refs/heads/main.zip](https://github.com/W1ndys/AD_Blacklist/archive/refs/heads/main.zip)
+[点击下载](https://github.com/W1ndys/AD_Blacklist/archive/refs/heads/main.zip)
+
