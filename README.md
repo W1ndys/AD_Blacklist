@@ -42,3 +42,7 @@ Pull Request 的时候请携带证明材料，比如违规截图，违规链接�
 ### [qq.db](./qq.db)
 
 一个 SQLite 数据库，里面包含了所有的 QQ 号
+
+### 下载压缩包
+
+[https://github.com/W1ndys/AD_Blacklist/archive/refs/heads/main.zip](https://github.com/W1ndys/AD_Blacklist/archive/refs/heads/main.zip)
