@@ -6,6 +6,8 @@
 
 有误报的请及时反馈。
 
+快速编辑地址：https://github.com/W1ndys/AD_Blacklist/edit/main/qq.txt
+
 ## 黑名单 QQ
 
 - [qq.txt](./qq.txt)
